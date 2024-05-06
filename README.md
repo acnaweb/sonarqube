@@ -34,8 +34,8 @@ unzip sonar-scanner-cli-5.0.1.3006-linux.zip -d /opt
 
 - .env
 > - SONARQUBE_URL=http://127.0.0.1:9000
-> - SONAR_PROJECT_KEY=
-> - SONAR_TOKEN=
+> - SONAR_PROJECT_KEY=dhuo-models
+> - SONAR_TOKEN=sqp_809b866144659546688ece40f986508d9971f7ad
 > - TARGET_REPO=/path/to/repo
 
 
