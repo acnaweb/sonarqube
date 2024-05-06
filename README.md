@@ -47,7 +47,7 @@ export $(cat .env | xargs)
 docker run --rm \
     --network host \
     -e SONAR_HOST_URL=$SONARQUBE_URL \
-    -e SONAR_SCANNER_OPTS="-Dsonar.projectKey=${SONAR_PROJECT_KEY}" \
+    -e SONAR_SCANNER_OPTS="-Dsonar.projectKey=$SONAR_PROJECT_KEY" \
     -e SONAR_TOKEN=$SONAR_TOKEN \
     -v $TARGET_REPO:/usr/src \
     sonarsource/sonar-scanner-cli
