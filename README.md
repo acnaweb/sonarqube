@@ -4,6 +4,10 @@ Clean code for teams and enterprises
 
 ## Install
 
+- Java compatibility = 17
+
+https://docs.sonarsource.com/sonarqube/latest/setup-and-upgrade/installation-requirements/server-host/
+
 ## Commands
 
 ### Docker
