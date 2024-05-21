@@ -92,3 +92,4 @@ sudo systemctl status sonar
 ## References 
 
 - https://www.sonarsource.com/products/sonarqube/
+- https://medium.com/@lilnya79/integrating-sonarqube-with-jenkins-fe20e454ccf4
