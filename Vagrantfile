@@ -17,4 +17,9 @@ Vagrant.configure("2") do |config|
     provider.customize ["modifyvm", :id, "--audio", "none"]   
     provider.customize ["modifyvm", :id, "--vram", "1"]     
   end
+
+  config.trigger.after :up do |trigger|
+    trigger.info = "Start container"    
+    trigger.run_remote = {inline: "sh /vagrant/scripts/run_container.sh"}
+  end
 end
